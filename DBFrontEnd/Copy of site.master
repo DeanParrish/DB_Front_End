@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Copy of site.master.cs" Inherits="site" %>
+
+<!DOCTYPE HTML>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Customer Search</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Styles/Main.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/Main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="page">
+        <asp:Menu ID="menuMaster" runat="server" DataSourceID="SiteMapDataSource1" 
+            Orientation="Horizontal" BackColor="#009933" 
+            DynamicEnableDefaultPopOutImage="False" ForeColor="Red" Height="40px" 
+            RenderingMode="Table" Width="100%" CssClass="menu">
+            <DynamicHoverStyle BackColor="#33CCCC" />
+            <DynamicMenuItemStyle BackColor="Yellow" BorderColor="Black" 
+                BorderStyle="Solid" BorderWidth="2px" ForeColor="Blue" />
+            <DynamicMenuStyle BackColor="Aqua" />
+            <StaticHoverStyle BackColor="#FFFF66" />
+            <StaticMenuItemStyle BackColor="White" Font-Bold="True" Font-Names="Bell MT" 
+                ForeColor="Black" HorizontalPadding="106px" Width="100%" />
+            <StaticMenuStyle BackColor="Black" />
+        </asp:Menu>
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" 
+            ShowStartingNode="False" />
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">      
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
