@@ -13,12 +13,12 @@
 <body>
     <form id="form1" runat="server" autocomplete="off">
     <div id="page">
-        <asp:ImageMap ID="imgMPAdd" runat="server" ImageUrl="~/Images/Add_Reg.jpg" 
+        <asp:ImageMap ID="imgMPAdd" runat="server" ImageUrl="~/DBFrontEnd/Images/Add_Reg.jpg"
             Width="49.5%">
             <asp:RectangleHotSpot HotSpotMode="Navigate" NavigateUrl="~/Add.aspx" 
                 Right="600" Top="40" />
         </asp:ImageMap>
-        <asp:ImageMap ID="imgMPSearch" runat="server" ImageUrl="~/Images/Search_Reg.jpg" 
+        <asp:ImageMap ID="imgMPSearch" runat="server" ImageUrl="~/DBFrontEnd/Images/Search_Reg.jpg" 
             Width="49.6%">
             <asp:RectangleHotSpot HotSpotMode="Navigate" NavigateUrl="~/Search.aspx" 
                 Right="600" Top="40" />

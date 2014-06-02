@@ -1,5 +1,5 @@
 ﻿
-<%@ Page Title="" Language="C#" MasterPageFile="~/site.master" AutoEventWireup="true" CodeFile="Search.aspx.cs" Inherits="Default" EnableEventValidation ="false"%>
+<%@ Page Title="" Language="C#" MasterPageFile="site.master" AutoEventWireup="true" CodeFile="Search.aspx.cs" Inherits="Default" EnableEventValidation ="false"%>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 
